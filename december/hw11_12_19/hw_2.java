@@ -1,4 +1,4 @@
-public class Main {
+public class hw_02 {
 	public static void main(String[] args) {
 		String house = ("thtwfour");
 		String kv = ("eith");
