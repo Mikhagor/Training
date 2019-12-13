@@ -8,21 +8,22 @@ public class hw_04 {
         Scanner input = new Scanner(System.in);
         int i = input.nextInt();
         if (i == 8) {
-            for (int a = 0; a < 2; a++)
-            System.out.println("Верный номер дома");
+            for (int a = 0; a < 2; a++) {
+                System.out.println("Верный номер дома");
+            }
         } else {
             System.out.println("Вы ввели не верный номер своего дома");
         }
 
         System.out.print("Введите номер квартиры: ");
-        Scanner input2 = new Scanner(System.in);
-        int i2 = input2.nextInt();
+        int i2 = input.nextInt();
         if (i2 == 324) {
 
             System.out.println("Верный номер квартиры");
         } else {
-            for (int a = 0; a < 9; a++)
-            System.out.println("Не верный номер квартиры");
+            for (int a = 0; a < 9; a++) {
+                System.out.println("Не верный номер квартиры");
+            }
         }
     }
 }
